@@ -1,0 +1,56 @@
+#mySidenavr a {
+    position: absolute;
+    right: -55px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#mySidenavr a:hover {
+    right: 0;
+}
+
+#about {
+    top: 200px;
+    background-color: #3f8bff;
+}
+
+#blog {
+    top: 200px;
+    background-color: #314452;
+}
+
+#projects {
+    top: 200px;
+    background-color: #874135;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+
+#home {
+	top: 260px;
+    background-color: #5d0909
+}
+
+#mySidenavl a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenavl a:hover {
+    left: 0;
+}

@@ -1,0 +1,469 @@
+
+.navbar-transparent {
+  padding-top: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-transparent .navar-brand{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    /*color: #00ff1e;*/
+	/*color: #1800ff;*/
+	color:#ff0000;
+	padding: 5px;
+	font-size: 16px;
+	font-weight:bold;
+	
+
+}
+.navbar-default .navbar-nav > li > a:hover{
+    /*color: #00ff1e;*/
+	text-decoration:underline;
+	color: #1800ff;  
+	padding: 5px;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.parallax1,.parallax2,.parallax3,.parallax4,.parallax5,.parallax6,.parallax7,.parallax8,.parallax9,.parallax10,.parallax11,.parallax12 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax1 {
+	background-image: url(../img/s1nl.png);
+	min-height: 100%;
+	opacity: 100;
+}
+
+.parallax2 {
+	background-image: url(../img/s3.png);
+	min-height:100%;
+	opacity: 100;
+}
+
+.parallax3 {
+	background-image: url(../img/s7pp.png);
+	min-height:100%;
+	opacity: 100;
+}
+
+.parallax4 {
+	background-image: url(../img/4944.png);
+	min-height:60%;
+	opacity: 100;
+}
+
+.parallax5 {
+	background-image: url(../img/hgoods2.png);
+	min-height:60%;
+	opacity: 100;
+}
+
+.parallax6	{
+	background-image: url(../img/hactivity.png);
+	min-height:60%;
+	opacity: 100;
+}
+
+.parallax7	{
+	background-image: url(../img/hmap.jpg);
+	min-height:60%;
+	opacity: 100;
+}
+
+.parallax8 {
+	background-image: url(../img/hg.jpg);
+	min-height:60%;
+	opacity: 100;
+}
+
+.parallax9 {
+	background-image: url(../img/hc4.png);
+	min-height:100%;
+	opacity: 100;
+}
+
+.parallax10 {
+	background-image: url(../img/haong2.png);
+	min-height:70%;
+	opacity: 100;
+	
+}
+
+.parallax11 {
+	background-image: url(../img/hf2.png);
+	min-height:70%;
+	opacity: 100;
+	
+}
+
+.parallax12 {
+	background-image: url(../img/hn2.png);
+	min-height:70%;
+	opacity: 100;
+	
+}
+	
+
+
+/* à´ëÇãªéÊÑÊ .first {
+    
+    padding-top: 0px;
+    text-align: center;
+    background: #000;
+}*/
+
+.index{
+	font-family: thaisansliter1;
+}
+	
+
+.first {
+	height:100%;
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+/*.first h1{
+	font-size:50px;
+}*/
+
+.first span.border1{
+	background-color: #636363;
+	color: #009fff;
+	padding:5px;
+		padding-bottom: 30px;
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+
+.first span.border3{
+	background-color: #636363;
+	color: #009fff;
+	padding:5px;
+		
+	font-size: 40px;
+	letter-spacing: 10px;
+}
+
+.first span.text{
+	padding-bottom:100%;
+	color:#fff;	
+	font-size: 35px;
+	letter-spacing: 15px;
+}
+
+/***************************SECOND**********************/
+
+.second{
+	height:100%;
+	margin-top:30px;
+	background-color:white;
+	text-align:center;
+}
+
+.second h5{
+	line-height:17pt;
+	color:#777;
+	font-size:14px;
+	text-align:justify;
+}
+
+.second h1{
+	margin-top:40px;
+	color:#000;
+	opacity:100;
+	
+}
+
+/************************THIRD*************************/
+
+.parallax2 .third{
+	/*background-color:#f3efe0;*/
+	/*background-color:#f1f1f2;*/
+	height:100%;
+	opacity:100;
+	text-align:center;
+}
+.parallax2 .third h1{
+	margin-top:40px;
+	color:#000;
+	opacity:100;
+	color:white;
+		text-shadow:
+			-1px -1px 0 #636363,  
+			1px -1px 0 #636363,
+			-1px 1px 0 #636363,
+			1px 1px 0 #636363;	
+}
+
+.parallax2 .third h5{
+	margin-top:40px;
+	color:#000;
+	opacity:100;
+}
+
+.parallax2 .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #fff;
+	opacity: 100;
+}
+.parallax2 .third .border1{
+	margin-top:40px;
+	background-color: #636363;
+	color: #fff;
+	padding:5px;
+		
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+/**********************Four********************/
+
+#map{
+	height: 420px;
+	width: 100%
+}
+
+/***************Fifth***********************/
+
+.parallax2 .third .carousel-inner > .item > img,
+.parallax2 .third .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+/***************Sixth************************/
+
+.footer{
+	text-align:left;
+	width:100%;
+	margin-top:30px;
+	background-color:gray;
+}
+
+.footer .webmap h3,.footer .talad h3{
+	color:white;
+	text-align:center;
+	font-size:20px;
+}
+
+.footer .webmap h4,.footer .talad h4,.footer .us h4{
+	
+	font-size:14px;
+	color:#4f4f4f;
+}
+
+.footer .webmap h4,.footer .talad h4{
+	margin-left:45%;
+}
+
+.footer .us h3{
+	margin-left:5%;
+}
+
+.footer .webmap a h4,.footer .talad a h4,.footer .us a h4{
+	color:#4f4f4f;
+	font-size:14px;
+}
+
+.footer .webmap a h4,.footer .talad a h4,.footer .us a h4{
+	color:#4f4f4f;
+}
+
+.footer .webmap a:hover h4,.footer .talad a:hover h4,.footer .us a:hover h4{
+	color:black;
+	text-decoration:underline;
+}
+
+.footer .talad h4 .logofb{
+	background-image: url(../img/glyph/glyphicons-social-31-facebook.png);
+}
+
+.sfooter{
+	border-top:solid 1px #fff;
+	background-color:black;
+	padding-bottom:1px;
+}
+
+.footer .us h3{
+	color:white;
+	text-align:left;
+	font-size:20px;
+}
+
+/********************************************/
+/*****************History********************/
+/********************************************/
+
+.parallax4 .history1,.parallax5 .goods1,.parallax6 .activity1,.parallax7 .map1,.parallax8 .gal1,.parallax9 .hc1{
+	/*background-color:#f3efe0;*/
+	/*background-color:#f1f1f2;*/
+	height:60%;
+	opacity:100;
+	text-align:center;
+}
+
+.parallax4 .history1 h1,.parallax5 .goods1 h1,.parallax6 .activity1 h1,.parallax7 .map1 h1,.parallax8 .gal1 h1,.parallax9 .hc1 h1{
+	/*font-family: thaisansliter1;*/
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+	font-weight:bold;
+	margin-top:50%;
+	color:#000;
+	opacity:100;
+	color:white;
+		/*text-shadow:
+			-1px -1px 0 #636363,  
+			1px -1px 0 #636363,
+			-1px 1px 0 #636363,
+			1px 1px 0 #636363;*/	
+}
+
+
+.history2{
+	height:100%;
+}
+
+.history2 h1{
+	text-align:center;
+	/*font-family: 'Itim', cursive;*/
+	font-family: 'Athiti', sans-serif;
+	font-weight:bold;
+	color:blue;
+}
+
+.history2 h2{
+	color:blue;
+	font-family: 'Athiti', sans-serif;
+}
+
+.history2 h5,.activity2 h5,.goods2 h5{
+
+	line-height:20pt;
+	color:#777;
+	font-size:14px;
+	text-align:justify;
+}
+
+/*************GOODS************************/
+/******************************************/
+
+.goods2 h1,.activity2 h1,.map2 h1,.gal2 h1,.hc2 h1{
+	text-align:center;
+	/*font-family: 'Itim', cursive;*/
+	font-family: 'Athiti', sans-serif;
+	font-weight:bold;
+}
+
+
+.goods2 h1,.goods2 h2{
+	color:#ff9600;
+	font-family: 'Athiti', sans-serif;
+}
+
+
+.goods2 img:hover{
+	opacity:0.7;
+	height:110%;
+	width:110%;
+	}
+
+/**************activity*************/
+
+.activity2 h1,.activity2 h2{
+	color:#00ff36;
+	font-family: 'Athiti', sans-serif;
+}
+
+.activity2 img {
+	margin-top:2%;
+	background-image: url(../img/dew.jpg);
+	height:50%;
+	width:50%
+}
+
+/*************Lccation***************/
+
+.map2 h1,.map2 h2,.map3 h2{
+	color:#ffd200;
+	font-family: 'Athiti', sans-serif;
+}
+
+.map3{
+	text-align:center;
+}
+
+.map3 img:hover{
+	opacity:0.7;
+	
+}
+
+.map3 h3{
+	color:#777;
+	font-family: 'Athiti', sans-serif;
+}
+
+/*********************map**************/
+.gal2 h1,.gal2 h2{
+	color:#14b5d2;
+	font-family: 'Athiti', sans-serif;
+}
+
+.gal2 img:hover{
+	opacity:0.7;
+}
+
+/******************contact****************/
+.hc2 h1,.hc2 h2{
+	color:#000;
+	font-family: 'Athiti', sans-serif;
+}
+
+.parallax10 .hc3,.parallax11 .hc4,.parallax12 .hc5 {
+	color:#fff;
+}
+
+.parallax10 .hc3 h1{
+	margin-top:15%;
+}
+
+.parallax10 .hc3 h1,.parallax10 .hc3 h2,.parallax11 .hc4 h1,.parallax11 .hc4 h2,.parallax12 .hc5 h1,.parallax12 .hc5 h2{
+	display:inline;
+	background-color:#777;
+}
+
+.parallax10 .hc3 img ,.parallax12 .hc5 img{
+	margin-top:10%;
+	border:solid 5px #fff;
+	background-color:black;
+}
+
+.parallax11 .hc4 img{
+	margin-top:10%;
+	border:solid 5px #000;
+	background-color:black;
+}
+
+.parallax11 .hc4 h1,.parallax11 .hc4 h2{
+	text-align:right;
+}
+
+.hc3 img:hover,.hc4 img:hover,.hc5 img:hover{
+	opacity:0.7;
+}
